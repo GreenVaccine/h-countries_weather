@@ -1,13 +1,19 @@
-# Countries & Weather with React + TypeScript App
+# 🌍 Countries & Weather with React + TypeScript App
 
-Log in or Sign Up this [Weather.com](https://weatherstack.com).\
-This project is to get countries and their capital weather with GraphQL and MUI.\
-[Click Me](https://mysticblackmask.github.io/h-countries_weather)
+This project is a **React** + **TypeScript** app that allows you to search for countries and view the current weather in their capitals. It integrates **GraphQL** for fetching country information and **Material UI (MUI)** for a sleek, responsive design.
 
-## `Install Correct Version`
+🚀 **Live Demo**: [Click Me](https://mysticblackmask.github.io/h-countries_weather)
 
-You start to the project to install npm modules.
-node --version 18.17.0
+## 🔑 Set Up Weather API Key
+
+1. **Sign Up or Log In** at [WeatherStack](https://weatherstack.com).
+2. Get your personal API key from their dashboard.
+
+## 🛠 Install the Correct Version
+
+Before you start, make sure you're using **Node.js** version `18.17.0` or later:
+
+# Expected output: v18.17.0
 
 ### `npm start`
 
