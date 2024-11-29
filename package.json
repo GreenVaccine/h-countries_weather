@@ -2,7 +2,7 @@
   "name": "h_country_and_weather",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mysticblackmask.github.io/2301-2312-3939-2413-h-country_weather",
+  "homepage": "https://mysticblackmask.github.io/2301-2312-3939-2413-h-country_weather/",
   "dependencies": {
     "@apollo/client": "^3.11.10",
     "@emotion/react": "^11.13.5",
