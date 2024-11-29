@@ -2,6 +2,7 @@
   "name": "h_country_and_weather",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mysticblackmask.github.io/2301-2312-3939-2413-h-country_weather",
   "dependencies": {
     "@apollo/client": "^3.11.10",
     "@emotion/react": "^11.13.5",
@@ -31,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,5 +53,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.2.0"
   }
 }
