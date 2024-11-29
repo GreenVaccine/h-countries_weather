@@ -19,11 +19,17 @@ export const RoutesIndex: FC = () => {
   return (
     <Routes>
       <Route
-        path="/list"
+        path="/h-countries_weather/list"
         element={<CountryListPage {...{ loading, error, data, FetchData }} />}
       />
-      <Route path="/country/:id" element={<CountryDetailsPage />} />
-      <Route path="/*" element={<Navigate to="/list" replace />} />
+      <Route
+        path="/h-countries_weather/country/:id"
+        element={<CountryDetailsPage />}
+      />
+      <Route
+        path="/*"
+        element={<Navigate to="/h-countries_weather/list" replace />}
+      />
     </Routes>
   );
 };

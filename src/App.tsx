@@ -7,7 +7,7 @@ import { ScrollTop } from "./components/ScrollTop";
 
 const App: FC = () => {
   return (
-    <Router basename="/h-countries_weather">
+    <Router>
       <LayoutHeader />
       <Toolbar id="back-to-top-anchor" />
       <Box component="main" sx={{ p: 3 }}>
