@@ -23,7 +23,7 @@ export const RoutesIndex: FC = () => {
         element={<CountryListPage {...{ loading, error, data, FetchData }} />}
       />
       <Route path="/country/:id" element={<CountryDetailsPage />} />
-      <Route path="/" element={<Navigate to="/list" replace />} />
+      <Route path="/*" element={<Navigate to="/list" replace />} />
     </Routes>
   );
 };
