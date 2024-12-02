@@ -28,7 +28,10 @@ export const CountryList: FC<CountryListProps> = ({ countries }) => {
               },
             }}
           >
-            <Link className="nav-link" to={`/country/${country.alpha3Code}`}>
+            <Link
+              className="nav-link"
+              to={`/h-countries_weather/country/${country.alpha3Code}`}
+            >
               <CardActionArea>
                 <CardContent>
                   <Grid2
