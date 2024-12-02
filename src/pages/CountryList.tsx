@@ -6,12 +6,7 @@ import React, {
   useMemo,
   useCallback,
 } from "react";
-import {
-  SelectChangeEvent,
-  Box,
-  TablePagination,
-  useTheme,
-} from "@mui/material";
+import { SelectChangeEvent, Box, TablePagination } from "@mui/material";
 import { Error, Loading } from "../components/errors/Error&Loading";
 import { CountryList } from "../components/CountryList";
 import { SearchBar } from "../components/SearchBar";
@@ -30,7 +25,6 @@ export const CountryListPage: FC<CountryDetailsPageProps> = ({
   loading,
   FetchData,
 }) => {
-  const theme = useTheme();
   const [page, setPage] = useState<number>(0);
   const [rowsPerPage, setRowsPerPage] = useState<number>(
     window.innerWidth > 1535 ? 24 : 8

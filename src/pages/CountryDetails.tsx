@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { GET_COUNTRY } from "../graphql/queries";
 import { CountryDetails } from "../components/CountryDetails";
 import { UseGraphqlFetch } from "../hooks/UseGraphqlFetch";
-import { Error, Loading } from "../components/errors/Error&Loading";
+import { Error } from "../components/errors/Error&Loading";
 import { dataLanguageType, dataCurrenciesType } from "../types/dataTypes";
 
 export const CountryDetailsPage: FC = () => {
